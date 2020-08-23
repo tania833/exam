@@ -30,7 +30,9 @@ body {
     border: 15px solid white;
     font-family: "Josefin Sans", sans-serif;
     -ms-overflow-style: none;
-    &::-webkit-scrollbar { width: 0; }
+    &::-webkit-scrollbar {
+        width: 0;
+    }
 }
 .container {
     max-width: 1770px;
@@ -93,7 +95,7 @@ body {
         width: 150px;
         height: 60px;
         border: 2px solid #ffffff;
-        background: url("/images/icon-button.svg") no-repeat 90%;
+        background: url("../images/icon-button.svg") no-repeat 90%;
         background-color: #5474fd;
         color: #ffffff;
         font-family: "Aleo-Reg";
@@ -228,7 +230,7 @@ input::-webkit-input-placeholder {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: url(/images/bg-2.png);
+    background-image: url(../images/bg-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -334,7 +336,7 @@ input::-webkit-input-placeholder {
         justify-content: flex-start;
         box-sizing: border-box;
         padding: 10rem;
-        background-image: url(/images/place-first.png);
+        background-image: url(../images/place-first.png);
         background-repeat: no-repeat;
         background-size: cover;
         max-height: 700px;
@@ -345,7 +347,7 @@ input::-webkit-input-placeholder {
         justify-content: flex-end;
         box-sizing: border-box;
         padding: 10rem;
-        background-image: url(/images/place-second.png);
+        background-image: url(../images/place-second.png);
         background-repeat: no-repeat;
         background-size: cover;
         max-height: 700px;
@@ -385,7 +387,7 @@ input::-webkit-input-placeholder {
 .tourists {
     padding: 6.5rem 2rem;
     box-sizing: border-box;
-    background-image: url(/images/bg-4.png);
+    background-image: url(../images/bg-4.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 730px;
