@@ -42,7 +42,7 @@ body {
   height: 100vh;
   max-height: 820px; }
   .header-wrapper {
-    background-image: url(/images/bg-1.png);
+    background-image: url(../images/bg-1.png);
     background-repeat: no-repeat;
     background-size: cover; }
   .header-title {
