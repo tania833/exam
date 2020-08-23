@@ -413,9 +413,6 @@ input::-webkit-input-placeholder {
 .fa-linkedin-in {
   color: #5474fd; }
 
-.padding {
-  padding-top: 220px !important; }
-
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 1140px; } }
@@ -448,7 +445,7 @@ input::-webkit-input-placeholder {
     align-items: center; }
   #myLinks {
     position: absolute;
-    top: 80px;
+    top: -183px;
     left: 0;
     width: 100%;
     background-color: black;
@@ -515,4 +512,6 @@ input::-webkit-input-placeholder {
   .tourists-title {
     margin-bottom: 3rem; }
   .tourists-card {
-    padding-left: 1rem; } }
+    padding-left: 1rem; }
+  .header {
+    height: 90vh; } }
