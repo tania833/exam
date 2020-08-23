@@ -29,6 +29,8 @@ body {
     box-sizing: border-box;
     border: 15px solid white;
     font-family: "Josefin Sans", sans-serif;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar { width: 0; }
 }
 .container {
     max-width: 1770px;
@@ -138,6 +140,7 @@ input::-webkit-input-placeholder {
 
 .header-scroll {
     &-text {
+        margin-bottom: 0.5em;
         color: #ffffff;
         font-size: 14px;
         letter-spacing: 2.8px;
@@ -152,6 +155,11 @@ input::-webkit-input-placeholder {
     &:hover {
         transform: scale(1.2);
     }
+}
+
+.scroll-icon {
+    width: 15px;
+    height: 15px;
 }
 
 .header-nav-list {
@@ -445,30 +453,30 @@ input::-webkit-input-placeholder {
         letter-spacing: 1.6px;
         line-height: 26px;
     }
-    &-list{
+    &-list {
         display: flex;
         list-style: none;
     }
 }
-.contacts-list{
-    &-item{
+.contacts-list {
+    &-item {
         margin-right: 1em;
-        }
     }
+}
 
-    .contacts-list-item:last-child{
-        margin-right: 0;
-    }
+.contacts-list-item:last-child {
+    margin-right: 0;
+}
 
-.fab{
+.fab {
     color: white;
 }
-.fa-linkedin-in{
+.fa-linkedin-in {
     color: #5474fd;
 }
 
 .padding {
-    padding-top: 220px!important;
+    padding-top: 220px !important;
 }
 @media screen and (max-width: 1200px) {
     .container {

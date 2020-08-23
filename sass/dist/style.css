@@ -26,6 +26,10 @@ body {
   box-sizing: border-box;
   border: 15px solid white;
   font-family: "Josefin Sans", sans-serif;
+  -ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+  width: 0;
 }
 
 .container {
@@ -136,6 +140,7 @@ input::-webkit-input-placeholder {
 }
 
 .header-scroll-text {
+  margin-bottom: 0.5em;
   color: #ffffff;
   font-size: 14px;
   letter-spacing: 2.8px;
@@ -149,6 +154,11 @@ input::-webkit-input-placeholder {
 }
 .header-scroll:hover {
   transform: scale(1.2);
+}
+
+.scroll-icon {
+  width: 15px;
+  height: 15px;
 }
 
 .header-nav-list {
