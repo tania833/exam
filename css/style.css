@@ -371,7 +371,8 @@ input::-webkit-input-placeholder {
   .tourists-text {
     color: #e8e8e8;
     font-size: 16px;
-    line-height: 26px; }
+    line-height: 26px;
+    text-align: justify; }
   .tourists-img {
     width: 100%;
     height: 100%;
@@ -411,6 +412,12 @@ input::-webkit-input-placeholder {
   color: white; }
 
 .fa-linkedin-in {
+  color: #5474fd; }
+
+.fa-quote-left {
+  position: relative;
+  left: 0;
+  top: -10px;
   color: #5474fd; }
 
 @media screen and (max-width: 1200px) {
