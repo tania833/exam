@@ -19,7 +19,7 @@ var notify = require("gulp-notify");
 function sassToCss() {
   return gulp.src('sass/*.scss').pipe(sass({
     includePaths: ['node_modules']
-  })).pipe(notify("Template: <%= file.relative %>")).on("error", notify.onError("Error: <%= error.message %>")).pipe(gulp.dest('dist'));
+  })).pipe(notify("Template: <%= file.relative %>")).on("error", notify.onError("Error: <%= error.message %>")).pipe(gulp.dest('css'));
 }
 
 ;
@@ -31,10 +31,10 @@ function watchSassPug() {
 ;
 
 function autoprefixerCss() {
-  return gulp.src('dist/style.css').pipe(autoprefixer({
+  return gulp.src('css/style.css').pipe(autoprefixer({
     overrideBrowserslist: ['last 2 versions'],
     cascade: false
-  })).pipe(gulp.dest('css'));
+  })).pipe(gulp.dest('dist'));
 }
 
 ;
