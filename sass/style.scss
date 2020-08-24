@@ -30,14 +30,17 @@ body {
     border: 15px solid white;
     font-family: "Josefin Sans", sans-serif;
     -ms-overflow-style: none;
+
     &::-webkit-scrollbar {
         width: 0;
     }
 }
+
 .container {
     max-width: 1770px;
     margin: auto;
 }
+
 .header {
     display: flex;
     flex-direction: column;
@@ -45,12 +48,16 @@ body {
     align-items: center;
     box-sizing: border-box;
     height: 100vh;
+    // min-height: 500px;
     max-height: 820px;
+
+
     &-wrapper {
         background-image: url(../images/bg-1.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     &-title {
         margin-top: 15%;
         margin-bottom: 1rem;
@@ -61,6 +68,7 @@ body {
         line-height: 26px;
         text-transform: uppercase;
     }
+
     &-desc {
         margin-bottom: 2%;
         color: #ffffff;
@@ -69,9 +77,11 @@ body {
         line-height: 26px;
         text-align: center;
     }
+
     &-search {
         margin-bottom: 8%;
     }
+
     &-input {
         box-sizing: border-box;
         border: 2px solid transparent;
@@ -81,15 +91,18 @@ body {
         font-size: 22px;
         line-height: 26px;
     }
+
     &-scroll {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     &-form {
         display: flex;
         justify-content: center;
     }
+
     &-button {
         box-sizing: border-box;
         width: 150px;
@@ -106,11 +119,13 @@ body {
         text-transform: uppercase;
         outline: none;
         box-shadow: none;
+
         &:hover {
             cursor: pointer;
             background-color: black;
         }
     }
+
     &-navigation {
         position: relative;
         margin-top: auto;
@@ -122,6 +137,7 @@ body {
         width: 100%;
         background-color: #5474fd;
     }
+
     &-logo {
         color: #ffffff;
         font-size: 24px;
@@ -148,12 +164,15 @@ input::-webkit-input-placeholder {
         letter-spacing: 2.8px;
         line-height: 26px;
     }
+
     &-icon {
         text-align: center;
     }
+
     &-link {
         text-decoration: none;
     }
+
     &:hover {
         transform: scale(1.2);
     }
@@ -167,16 +186,20 @@ input::-webkit-input-placeholder {
 .header-nav-list {
     display: flex;
 }
+
 #myLinks {
     list-style: none;
     display: flex;
 }
+
 .header-nav-item {
     margin-right: 3rem;
 }
+
 .header-nav-item:last-child {
     margin-right: 0;
 }
+
 .nav-item-link {
     color: #ffffff;
     font-family: "Aleo-Reg";
@@ -185,14 +208,17 @@ input::-webkit-input-placeholder {
     line-height: 26px;
     text-transform: uppercase;
     text-decoration: none;
+
     &:hover {
         color: black;
     }
 }
+
 .icon {
     display: none;
     text-decoration: none;
 }
+
 .nav-span {
     margin-right: 10px;
     color: #ffffff;
@@ -201,6 +227,7 @@ input::-webkit-input-placeholder {
     line-height: 26px;
     text-transform: uppercase;
 }
+
 .nav-icon {
     margin: 0;
     width: 2rem;
@@ -218,11 +245,13 @@ input::-webkit-input-placeholder {
     letter-spacing: 1.2px;
     line-height: 26px;
     text-transform: uppercase;
+
     &:hover {
         cursor: pointer;
         background-color: black;
     }
 }
+
 .why {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -235,13 +264,16 @@ input::-webkit-input-placeholder {
     background-size: cover;
     height: 100vh;
     max-height: 685px;
+
     &-container {
         width: 90%;
         margin: auto;
     }
+
     &-description {
         max-width: 560px;
     }
+
     &-title {
         margin-bottom: 3rem;
         color: #ffffff;
@@ -250,6 +282,7 @@ input::-webkit-input-placeholder {
         font-weight: 400;
         line-height: 26px;
     }
+
     &-para {
         margin-bottom: 3rem;
         color: #e8e8e8;
@@ -257,6 +290,7 @@ input::-webkit-input-placeholder {
         letter-spacing: 1.6px;
         line-height: 26px;
     }
+
     &-pictures {
         display: grid;
         grid-template-columns: 135px 205px 135px;
@@ -270,6 +304,7 @@ input::-webkit-input-placeholder {
         grid-row: 1/2;
         grid-column: 1/3;
     }
+
     &-img2 {
         width: 100%;
         height: 100%;
@@ -284,18 +319,22 @@ input::-webkit-input-placeholder {
     align-items: center;
     min-height: 337px;
     background: #333333;
+
     &-search {
         margin-bottom: 1rem;
         text-align: center;
     }
+
     &-select {
         margin-bottom: 1rem;
         text-align: center;
     }
+
     &-enjoy {
         margin-bottom: 1rem;
         text-align: center;
     }
+
     &-para {
         color: #e8e8e8;
         font-family: "Aleo-Reg";
@@ -303,11 +342,13 @@ input::-webkit-input-placeholder {
         font-weight: 400;
         line-height: 26px;
     }
+
     &-img {
         margin-bottom: 2rem;
         width: 60px;
         height: 60px;
     }
+
     &-decor1 {
         position: absolute;
         top: 30px;
@@ -318,6 +359,7 @@ input::-webkit-input-placeholder {
         height: 160px;
         opacity: 0.5;
     }
+
     &-decor2 {
         position: absolute;
         top: 30px;
@@ -342,6 +384,7 @@ input::-webkit-input-placeholder {
         max-height: 700px;
         height: 100vh;
     }
+
     &-second {
         display: flex;
         justify-content: flex-end;
@@ -362,6 +405,7 @@ input::-webkit-input-placeholder {
     max-height: 370px;
     background-color: #232323;
     opacity: 0.9;
+
     &-country {
         margin-bottom: 1rem;
         color: #e8e8e8;
@@ -369,6 +413,7 @@ input::-webkit-input-placeholder {
         letter-spacing: 1.5px;
         line-height: 26px;
     }
+
     &-title {
         margin-bottom: 1rem;
         color: #ffffff;
@@ -376,6 +421,7 @@ input::-webkit-input-placeholder {
         line-height: 26px;
         text-transform: uppercase;
     }
+
     &-desc {
         margin-bottom: 2rem;
         color: #e8e8e8;
@@ -392,6 +438,7 @@ input::-webkit-input-placeholder {
     background-size: cover;
     max-height: 730px;
     height: 100vh;
+
     &-title {
         margin-bottom: 5rem;
         color: #ffffff;
@@ -401,6 +448,7 @@ input::-webkit-input-placeholder {
         line-height: 32px;
         text-align: center;
     }
+
     &-content {
         display: flex;
         justify-content: center;
@@ -408,12 +456,14 @@ input::-webkit-input-placeholder {
         flex-grow: 0;
         text-align: center;
     }
+
     &-card {
         box-sizing: border-box;
         padding: 3rem 1rem 1.4rem 4rem;
         max-width: 665px;
         background-color: #333333;
     }
+
     &-name {
         margin-bottom: 1rem;
         color: #fefefe;
@@ -421,11 +471,13 @@ input::-webkit-input-placeholder {
         line-height: 26px;
         text-transform: uppercase;
     }
+
     &-text {
         color: #e8e8e8;
         font-size: 16px;
         line-height: 26px;
     }
+
     &-img {
         width: 100%;
         height: 100%;
@@ -440,6 +492,7 @@ input::-webkit-input-placeholder {
     align-items: center;
     background-color: #232323;
     height: 268px;
+
     &-logo {
         color: #ffffff;
         font-size: 24px;
@@ -448,6 +501,7 @@ input::-webkit-input-placeholder {
         line-height: 26px;
         text-transform: uppercase;
     }
+
     &-subtitle {
         margin-bottom: 1rem;
         color: #ffffff;
@@ -455,11 +509,13 @@ input::-webkit-input-placeholder {
         letter-spacing: 1.6px;
         line-height: 26px;
     }
+
     &-list {
         display: flex;
         list-style: none;
     }
 }
+
 .contacts-list {
     &-item {
         margin-right: 1em;
@@ -473,6 +529,7 @@ input::-webkit-input-placeholder {
 .fab {
     color: white;
 }
+
 .fa-linkedin-in {
     color: #5474fd;
 }
@@ -487,6 +544,7 @@ input::-webkit-input-placeholder {
     .why-description {
         margin-bottom: 3rem;
     }
+
     .why {
         padding: 3rem 1rem 1rem;
         max-height: none;
@@ -495,13 +553,16 @@ input::-webkit-input-placeholder {
         justify-content: center;
         align-items: center;
     }
+
     .tourists {
         max-height: unset;
         height: 100%;
     }
+
     .tourists-content {
         flex-direction: column;
     }
+
     .tourists-card {
         max-width: unset;
     }
@@ -518,6 +579,7 @@ input::-webkit-input-placeholder {
         display: flex;
         align-items: center;
     }
+
     #myLinks {
         position: absolute;
         top: -183px;
@@ -529,9 +591,11 @@ input::-webkit-input-placeholder {
         justify-content: center;
         text-align: center;
     }
+
     .nav-item-link {
         font-size: 22px;
     }
+
     .header-nav-item {
         margin: 10px 0 10px;
     }
@@ -541,6 +605,7 @@ input::-webkit-input-placeholder {
     .container {
         max-width: 720px;
     }
+
     .why-pictures {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -551,26 +616,33 @@ input::-webkit-input-placeholder {
         flex-direction: column;
         align-items: center;
     }
+
     .header-button {
         width: 500px;
     }
+
     .header-desc {
         margin-bottom: 2rem;
     }
+
     .header-input {
         margin-bottom: 2rem;
     }
+
     .why-img1,
     .why-img2 {
         grid-column: 1/4;
     }
+
     .why-description {
         text-align: center;
     }
+
     .places-first,
     .places-second {
         padding: 5%;
     }
+
     .book {
         padding: 2rem;
         flex-direction: column;
@@ -581,6 +653,7 @@ input::-webkit-input-placeholder {
     body {
         border: none;
     }
+
     .container {
         max-width: 540px;
     }
@@ -588,33 +661,51 @@ input::-webkit-input-placeholder {
     .header-input {
         max-width: 400px;
     }
+
     .header-button {
         width: 400px;
     }
 }
 
 @media screen and (max-width: 450px) {
+
     .header-input,
     .header-button {
         width: 250px;
     }
+
     .header-title {
         font-size: 2em;
     }
+
     .header-logo {
         font-size: 1em;
     }
+
     .card {
         max-height: 450px;
     }
+
     .tourists {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+
     .tourists-title {
         margin-bottom: 3rem;
     }
+
     .tourists-card {
         padding-left: 1rem;
+    }
+}
+
+@media (orientation:landscape) {
+    .header {
+        min-height: 600px;
+    }
+    .places-first,
+    .places-second{
+        height: auto;
     }
 }
