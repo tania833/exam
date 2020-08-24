@@ -520,6 +520,10 @@ input::-webkit-input-placeholder {
 .contacts-list {
     &-item {
         margin-right: 1em;
+
+        &:hover {
+            transform: scale(2);
+        }
     }
 }
 

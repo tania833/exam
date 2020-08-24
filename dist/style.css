@@ -486,6 +486,9 @@ input::-webkit-input-placeholder {
 
 .contacts-list-item {
   margin-right: 1em; }
+  .contacts-list-item:hover {
+    -webkit-transform: scale(2);
+    transform: scale(2); }
 
 .contacts-list-item:last-child {
   margin-right: 0; }
