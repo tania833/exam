@@ -622,3 +622,10 @@ input::-webkit-input-placeholder {
     margin-bottom: 3rem; }
   .tourists-card {
     padding-left: 1rem; } }
+
+@media (orientation: landscape) {
+  .header {
+    min-height: 600px; }
+  .places-first,
+  .places-second {
+    height: auto; } }
